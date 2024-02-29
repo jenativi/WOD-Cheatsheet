@@ -41,32 +41,31 @@ a.nav-link{
 }
 
 //Dukes
-body {
-  background: url("murphys-new-background.jpeg") no-repeat center center fixed;
-  background-size: cover;
-  --bs-dark: #1B4F24;
-  --bs-dark-rgb: #1B4F24;
+
+a.nav-link {
+  color: white;
+}
+
+a.orange {
+  color: #F1A228;
 }
 
 #topMenu {
-  background-color: #1B4F24;
+  background-color: #017574;
+  color: white;
+  padding-bottom: 15px;
+}
+
+#centerImage {
+  height: 0;
+}
+
+#bottomText {
+  background-color: #017574;
   color: white;
 }
 
-#centerText {
+#bottomFooter {
+  background-color: #8E8579;
   color: white;
-  height: 500px;
-}
-
-#bottomMenu {
-  background-color: #1B4F24;
-  color: white;
-}
-
-a.nav-link{
-  color: white;
-}
-
-:root {
-  --bs-link-color: white;
 }
