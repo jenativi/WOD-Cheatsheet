@@ -1,0 +1,44 @@
+//Island Snow
+const Logo = () => (
+  <Row className="justify-content-md-center py-3">
+    <Col md="auto">
+      <Image fluid rounded mx="auto" d="block" src="experience-islandsnow-bootstrap-logo.png" alt="Island Snow Hawaii Logo"/>
+    </Col>
+  </Row>
+);
+
+const SecondMenu = () => (
+  <Nav className="justify-content-md-center py-3">
+    <NavDropdown title={"MEN"}/>
+    <NavDropdown title={"WOMEN"}/>
+    <NavDropdown title={"KIDS"}/>
+    <NavDropdown title={"BRANDS"}/>
+    <Nav.Link>SEARCH</Nav.Link>
+  </Nav>
+);
+
+const MainImage = () => (
+  <Row className="justify-content-md-center pt-3">
+    <Col md="auto">
+      <Image fluid src="experience-islandsnow-bootstrap-main.png"/>
+    </Col>
+  </Row>
+);
+
+//Murphys
+const CenterText = () => (
+  <Row id="centerText" className="align-items-center justify-content-center">
+    <Col xs={8} className="text-center">
+      <h1>Now accepting reservations for St Patrick's Day</h1>
+      <h1>Please call 808-531-0422 for reservations</h1>
+      <h1>St Patrick's Day To-Go Orders can be ordered on our website menu.</h1>
+    </Col>
+  </Row>
+);
+
+//Dukes
+const CenterImage = () => (
+  <div id="centerImage">
+    <Image src="dukebackground.png" width="100%"/>
+  </div>
+);

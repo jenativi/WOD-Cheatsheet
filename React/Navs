@@ -1,0 +1,69 @@
+//Island Snow
+const TopMenu = () => (
+  <Navbar bg="light" expand="lg">
+    <Container>
+      <Nav className="me-auto">
+        <Nav.Link><Facebook/></Nav.Link>
+        <Nav.Link><Twitter/></Nav.Link>
+        <Nav.Link><Pinterest/></Nav.Link>
+        <Nav.Link><Instagram/></Nav.Link>
+      </Nav>
+      <Nav className="justify-content-end">
+        <Nav.Link><HouseFill/> </Nav.Link>
+        <Nav.Link><Search/> </Nav.Link>
+        <Nav.Link><PersonFill/> </Nav.Link>
+        <NavDropdown title={<Cart/>}>
+          <NavDropdown.Item></NavDropdown.Item>
+          <NavDropdown.ItemText>Your cart is currently empty.</NavDropdown.ItemText>
+        </NavDropdown>
+      </Nav>
+    </Container>
+  </Navbar>
+);
+
+
+//Murphys
+const TopMenu = () => (
+  <Container id="topMenu" fluid className="py-3">
+    <Navbar bg="dark" expand="lg">
+      <Container>
+        <Navbar.Brand href="#home"><Image src="/murphyslogowhite.png" width={200}/></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+          <Nav>
+            <Nav.Link href="#">Home</Nav.Link>
+            <Nav.Link href="#">About Us</Nav.Link>
+            <Nav.Link href="#">St. Patrick&apos;s Day</Nav.Link>
+            <Nav.Link href="#">To Go Ordering</Nav.Link>
+            <Nav.Link href="#"><Instagram/></Nav.Link>
+            <Nav.Link href="#"><Facebook/></Nav.Link>
+            <Nav.Link href="#"><Twitter/></Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  </Container>
+);
+
+
+//Dukes
+const TopMenu = () => (
+  <Container fluid className="py-1" id="topMenu">
+    <Navbar expand="lg">
+      <Container>
+        <Navbar.Brand href="#"><Image src="dukeslogo.png" alt="Duke's Logo"/></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+          <Nav>
+            <Nav.Link href="#">MENUS</Nav.Link>
+            <Nav.Link href="#">DUKE</Nav.Link>
+            <Nav.Link href="#">SHOP</Nav.Link>
+            <Nav.Link href="#">JOIN OUR TEAM</Nav.Link>
+            <Nav.Link href="#">CONTACT</Nav.Link>
+            <Nav.Link href="#" className="orange">ORDER TAKEOUT & DELIVERY</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  </Container>
+);

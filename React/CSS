@@ -1,0 +1,72 @@
+//Island Snow
+.nav {
+  --bs-nav-link-color: black;
+  --bs-nav-link-font-weight: bold;
+}
+
+footer {
+  background-color: #292929;
+  color: white;
+}
+
+//Murphys
+body {
+  background: url("murphys-new-background.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  --bs-dark: #1B4F24;
+  --bs-dark-rgb: #1B4F24;
+}
+
+#topMenu {
+  background-color: #1B4F24;
+  color: white;
+}
+
+#centerText {
+  color: white;
+  height: 500px;
+}
+
+#bottomMenu {
+  background-color: #1B4F24;
+  color: white;
+}
+
+a.nav-link{
+  color: white;
+}
+
+:root {
+  --bs-link-color: white;
+}
+
+//Dukes
+body {
+  background: url("murphys-new-background.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  --bs-dark: #1B4F24;
+  --bs-dark-rgb: #1B4F24;
+}
+
+#topMenu {
+  background-color: #1B4F24;
+  color: white;
+}
+
+#centerText {
+  color: white;
+  height: 500px;
+}
+
+#bottomMenu {
+  background-color: #1B4F24;
+  color: white;
+}
+
+a.nav-link{
+  color: white;
+}
+
+:root {
+  --bs-link-color: white;
+}
